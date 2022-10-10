@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  rgb(229, 229, 233);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+    
+}
+nav{
+    background-color: rgb(43, 42, 42);
+    text-align: center;
+    
+}
+nav ul li{
+    margin: 10px;
+    padding: 5px;
+    display: inline-flex;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(235, 233, 233);
+    font-size: 10px;
+}
+main{
+    font-family: sans-serif;
+    background-color: white;
+    margin-right: 270px;
+    margin-left: 270px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    box-shadow: 1px 1px 5px #999;
+    
+    
+}
+.scroll{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    
+
+    
+    
+}
+.intro{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    padding: 15px;
+    padding-top: 80px;
+    font-size: 37px;
+}
+.brief{
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    width: 90%;
+    letter-spacing: 0.2px;
+    margin-left: 50px;
+    padding-bottom: 35px;
+
+}
+.head{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-right: 300px;
+    margin-left: 170px;
+    
+}
+.bio{
+    font-family: sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: 170px;
+    margin-right: 180px;
+    text-align: left;
+    color: rgb(54, 53, 53);
+    padding-top: 5px;
+}
+.bottom{
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 170px;
+    color: rgb(182, 178, 178);
+    
+}
+.End{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+}
+.date{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+.last{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.extreme{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 50px;
+}
